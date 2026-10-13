@@ -68,12 +68,12 @@
 
 ## 6. 화면 설계서
 
+https://app.notion.com/p/yleeylee/3f82b0d658a680118f54e049de1f4dd4?source=copy_link
 
 ## 7. 에이전트 구성도
 
-아래 구성도는 브라우저에서 시작해 프론트엔드, FastAPI 백엔드, 추천 Agent, Render PostgreSQL과 외부 서비스까지 이어지는 프로그램의 전체 구성입니다. 실선과 점선은 구성도에 표시된 요청·데이터 연동을 나타냅니다. 서비스 로그인은 제외되어 있고, Google Calendar 권한은 일정 등록 과정에서 별도로 연결됩니다.
 
-![자격잇다 전체 프로그램 아키텍처 구성도](docs/images/agent-architecture.png)
+![자격잇다 전체 프로그램 아키텍처 구성도](agent-architecture.png)
 
 추천 요청은 LangGraph StateGraph 기반 Agent가 처리합니다. State는 한 번의 요청 안에서 프로필, 메시지, 검색 후보, 도구 호출, 오류·재시도 횟수와 결과를 보관합니다. LLM은 조회 도구를 선택하고, 실제 조회와 DB 접근은 Python 도구가 수행합니다. 결과는 검증 단계를 거치며, 제한된 보완 시도 뒤에도 검증되지 않으면 성공으로 가장하지 않고 실패 경로로 종료합니다. 장기 기억, 전용 벡터 RAG, 일반적인 자기성찰 기능은 구현 완료로 보지 않습니다.
 

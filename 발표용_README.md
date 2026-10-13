@@ -18,7 +18,7 @@
 
 | 이름 | 역할 | 담당 영역 |
 | --- | --- | --- |
-| 강민우 | FE | 화면 설계 및 API 연동 |
+| 강민우 | FE | 화면 설계 및 와이어프레임 수정 |
 | 박서윤 | 팀장, PM, GoogleAuth | 문서 정리 및 BE<br>Agent/FE 기능 보조<br>Google Auth API |
 | 배소정 | 프론트, 배포 | 화면 구현, Git branch merge,<br>Google Calendar API,<br>DB/API 설계서 |
 | 임익현 | BE | BE 기능 구현, DB/API 설계서 |

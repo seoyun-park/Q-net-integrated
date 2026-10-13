@@ -57,6 +57,8 @@
 
 ## 5. 화면 설계서
 
+https://app.notion.com/p/yleeylee/3f82b0d658a680118f54e049de1f4dd4?source=copy_link
+
 
 ## 6. 에이전트 흐름도
 

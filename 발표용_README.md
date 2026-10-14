@@ -21,7 +21,7 @@
 | 강민우 | FE | 화면 설계 및 와이어프레임 수정 |
 | 박서윤 | 팀장, PM, GoogleAuth | 문서 정리 및 BE<br>Agent/FE 기능 보조|
 | 배소정 | 프론트, 배포 | 화면 구현, Git branch merge,<br>Google Calendar API,<br>DB/API 설계서 |
-| 임익현 | BE | Q-net API를 활용한 기능 구현, DB/API 설계서 |
+| 임익현 | BE | FastAPI API, PostgreSQL 연동, LangGraph 기반 자격증 추천, Google Calendar 연동 및 통합 테스트 |
 
 ## 4. 사용자 페르소나
 
